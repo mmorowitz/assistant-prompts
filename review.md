@@ -11,7 +11,7 @@ Do not batch/group tasks in this checklist when reviewing them with me. Ask abou
 
 ## Core review
 - [ ] Review any incomplete tasks planned for today and any overdue tasks. If it's the morning, assume that I still have time to complete the today's tasks.
-- [ ] Review any meeting output or notes that need to be processed. Search my Google Drive for any new documents that appear to be meeting summaries or meeting transcripts. Review the documents and suggest any tasks I need to do now or create for later or delegations that I need reminders for. You may make task or reminder suggestions to add to Todoist or suggest that I add something to my calendar.
+- [ ] Review any meeting output or notes that need to be processed. Search my Google Drive for any new documents since our last review that appear to be meeting summaries or meeting transcripts. Review the documents and suggest any tasks I need to do now or create for later or delegations that I need reminders for. You may make task or reminder suggestions to add to Todoist or suggest that I add something to my calendar.
 - [ ] Review tasks tagged with @NOW and ensure I have a good plan to accomplish everything this week. Pay special attention to tasks that do not have a specific day and priority attached.
 - [ ] Review existing projects in the interest of ensuring they have a clearly identified "next action". Projects should generally have at least one @NOW or @NEXT task in them. If they don't, it's reasonable to ask if the project still needs to exist or if it needs to be updated.
 

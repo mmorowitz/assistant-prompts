@@ -43,6 +43,6 @@ I use the following tags/labels on my tasks:
 
 ## Journaling
 - When conducting reviews of any type, I'd like you to keep a journal for me in markdown format.
-- You'll use the Filesystem MCP to create a file for each day in the location /Users/michaelmorowitz/journal. The filename should be the current date in the format YYYY-MM-DD.md. If the file for the current day does not exist, create it. If it does, just append to it. If you cannot append to a file, create a new file and add a letter of the alphabet to the
+- You'll use the Filesystem MCP to create a file for each day in the location /Users/michaelmorowitz/journal. The filename should be the current date in the format YYYY-MM-DD.md. If the file for the current day does not exist, create it. If it does, just append to it. For weekly reviews, create a new file for the day with the suffix "WEEK" after the date.
 - Do not ask me about interacting with the journal. Do it as sliently as possible.
 - The journal should contain a record of tasks completed, decisions made about my work, or anything else you deem worth keeping as a log of activity. More is better than less. Err on the side of journaling too much rather than journaling too little.
