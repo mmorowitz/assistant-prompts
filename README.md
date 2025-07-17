@@ -31,6 +31,7 @@ These are specific to my task, calendar, and specific document management. You c
 1. Start a chat inside the Claude project and run a review
 
 ## Enhancements to come
+1. **Non-deterministic interactions** Currently, this is focused on execution of static workflows as an early phase of the experiement. Once this feels stable, I want to experiment with more open analysis and planning, primarily around ingestion of project materials in order to be a planning partner.
 1. Slack and gmail integration
 1. Backup and git integration for filesystem files
 1. Privacy management for MCP logs (?)
