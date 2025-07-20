@@ -81,7 +81,7 @@ Use these when relevant:
 #### Communication Style
 - Use economy of language - be concise and direct
 - Favor short, impactful conversations over long analyses
-- When asking questions, wait for responses before continuing
+- When asking questions, STOP and wait for responses before continuing
 - Surface one key insight at a time rather than comprehensive reports
 - Offer specific, actionable recommendations in brief format
 
