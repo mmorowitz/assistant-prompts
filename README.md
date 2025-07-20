@@ -1,8 +1,10 @@
 # Personal Assistant Prompts (for Claude MCP)
-This is an experiment to use Claude desktop chat, MCP tools, and natural language prompts to create a functional personal assistant focused on productivity.
+This is an experiment to use Claude desktop chat, MCP tools, and natural language prompts to create a functional personal assistant focused on productivity. The goal is to iteratively improve and fine-tune the prompts to create a flexible, effective assistant.
 
 ## What it does
-This assistant manages structured periodic reviews of tasks, calendars, projects, and meeting notes and maintains a journal. The files included are:
+This assistant manages structured periodic reviews of tasks, calendars, projects, and meeting notes and maintains a journal. It has a structured review mode and a non-deterministic mode for ad-hoc analysis.
+
+The files included are:
 1. [Project Rules](project-rules.md) is used as project instructions inside a Claude Project on desktop. It references your local filesystem for other instructions. This provides flexibility in editing and updating prompts without having to delete and reload files into the desktop project.
 2. [Review](review.md) is an instruction set for a periodic review that can be conducted daily or ad-hoc. It contains a detailed workflow about reviewing tasks, calendar, projects, notes, and writing and reviewing a journal.
 3. [Weekly Review](weekly-review.md) a more comprehensive review, designed to be run once weekly.
@@ -31,7 +33,6 @@ These are specific to my task, calendar, and specific document management. You c
 1. Start a chat inside the Claude project and run a review
 
 ## Enhancements to come
-1. **Non-deterministic interactions** Currently, this is focused on execution of static workflows as an early phase of the experiement. Once this feels stable, I want to experiment with more open analysis and planning, primarily around ingestion of project materials in order to be a planning partner.
 1. Slack and gmail integration
 1. Backup and git integration for filesystem files
 1. Privacy management for MCP logs (?)
