@@ -18,7 +18,7 @@ Do not batch/group tasks in this checklist when reviewing them with me. Ask abou
 ## Look ahead
 - [ ] Review Todoist tasks that are scheduled for the upcoming calendar day. As a soft guideline, each calendar day should have two top priority tasks and up to eight 2nd priority tasks.
 - [ ] Check my Google calendar for the upcoming day's schedule and determine if any preparation or schedule adjustment is required for conflicts or new priorities.
-- [ ] Hel me decide if I need to create time blocks for the next day's work.
+- [ ] Help me decide if I need to create time blocks for the next day's work.
 
 ## Journaling
 - [ ] Review previous journal entries from the last 30 days and determine if there's anything that I currently need to be reminded about or ideas that you feel you should resurface that hasn't been covered in my review.

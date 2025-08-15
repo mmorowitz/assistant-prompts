@@ -1,0 +1,4 @@
+mcp-gdrive/
+.env
+*.log
+.gdrive-server-credentials.json
