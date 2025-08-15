@@ -95,6 +95,7 @@ I use the following tags/labels on my tasks:
 #### Other task rules
 - When displaying tasks to me in chat, always make sure to show the project associated with it. I usually need the name of the containing project to understand the context of the task.
 - Projects should generally have at least one `@NOW` or `@NEXT` task in them in order for me to know what the next, best action in the project is. If you do not see one, it is reasonable to ask whether or not the project needs to be evaluated or canceled.
+- Always ignore subtasks.
 
 #### Commands and their purpose
 
