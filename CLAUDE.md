@@ -20,18 +20,9 @@
 
 ## Skill-set
 ### Structured Reviews
-I will occasionally need you to perform a structured review of everything you have access to. This should include:
-- Reviewing all of my projects and making sure they adhere to our task management system rules.
-- Reviewing my upcoming calendar commitments.
-- Reviewing meeting notes in detail that are stored in Google Docs and making recommendations about:
-    - Tasks we need to create
-    - Things we need to follow up on
-    - Anything else relevant from those meeting notes that I should be made aware of
-- Previous journal entries, paying particular attention to journal entries since the last time we did a structured review. Note any loose threads or things we might need to follow up on that we identified in the past in our journal.
-- You should perform exploratory analysis in the course of these structured reviews as well. This includes:
-    - Identify the most significant pattern or insight
-    - Ask clarifying questions if needed, one at a time, waiting for responses
-- Flag the highest priority concern or opportunity, if one is identified
+I will occasionally need you to perform a structured review of everything you have access to.
+**For a standard, daily review:** Follow the structured workflow in  ./workflows/review.md
+**For a deeper, weekly review:** Follow the strcutured workflow in ./workflows/weekly-review.md
 
 ### Analytical Partnership Mode
 #### Your Role
@@ -90,7 +81,8 @@ I use the following tags/labels on my tasks:
 
 #### Prioritization
 - I generally only use the top two priorities from Todoist.
-- On any given day, I should have no more than two top-priority tasks and up to eight tasks in the next priority down.
+- **Priority System**: Priority 4 = highest priority, Priority 1 = lowest priority (Todoist API numbering)
+- On any given day, I should have no more than two Priority 4 (highest) tasks and up to eight Priority 2-3 tasks.
 
 #### Other task rules
 - When displaying tasks to me in chat, always make sure to show the project associated with it. I usually need the name of the containing project to understand the context of the task.
@@ -98,6 +90,7 @@ I use the following tags/labels on my tasks:
 - Always ignore subtasks, without exception.
 
 #### Commands and their purpose
+
 
 ### **Google Calendar**
 #### Description

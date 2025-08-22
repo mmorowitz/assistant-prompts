@@ -1,4 +1,6 @@
 mcp-gdrive/
+journal/
 .env
 *.log
 .gdrive-server-credentials.json
+.claude/
