@@ -1,32 +1,102 @@
-# Review
-Do not batch/group tasks in this checklist when reviewing them with me. Ask about each individually and wait for confirmation until we move to the next one. You may group things within one step (such as a group of tasks that all need review).
+# Review Workflow (Two-Stage Process)
 
-## Before Starting Review
-1. Read this entire workflow document first
-2. Note that each [ ] item requires user confirmation before proceeding
-3. Set expectation: this is interactive, not automated
+## Stage 1: Context Gathering
+**Purpose**: Systematically load all relevant data into context without user interruption.
 
-## Review Preparation
-- [ ] **STOP AND WAIT** - Read the most recent journal entries (last 7 days minimum) to understand what has changed since the previous review. Pay attention to "Items to Follow Up Next Review" from the last review session. Ask user if they want details before proceeding.
-- [ ] **STOP AND WAIT** - Note the date/time of the previous review to help identify what's new or changed. Share findings and wait for confirmation.
+### Data Collection (Automated)
+Execute the following slash commands in sequence to gather comprehensive context:
 
-## Clear the decks
-- [ ] **STOP AND WAIT** - Confirm user has processed personal email, work email inbox, slack messages, and github inbox to zero items. Wait for confirmation before proceeding.
-- [ ] **STOP AND WAIT** - Check my Todoist inbox for tasks that need to be processed. Share findings and wait for user response before continuing.
+1. **Project Context**
+   - `/list-project-descriptions` - Load all project purposes and descriptions
 
-## Core review
-- [ ] **STOP AND WAIT** - Review any incomplete tasks planned for today and any overdue tasks. Share findings and wait for user input before proceeding.
-- [ ] **STOP AND WAIT** - Review any meeting output or notes that need to be processed. Use `/review-docs` command to search Google Drive, then read relevant documents and share findings. Wait for user response before continuing.
-- [ ] **STOP AND WAIT** - Review tasks tagged with @NOW and ensure I have a good plan to accomplish everything this week. Share analysis and recommendations, then wait for confirmation.
-- [ ] **STOP AND WAIT** - Review existing projects for clearly identified "next action". Share any projects that need attention and wait for user direction.
+2. **Task Context** 
+   - `/list-active-tasks` - Get inbox, due today, and overdue tasks
+   - `/list-now-tasks` - Get current week @NOW tasks
+   - `/list-tomorrow-tasks` - Get tomorrow's scheduled tasks
+   - `/list-stalled-projects` - Identify projects without clear next actions
 
-## Look ahead
-- [ ] **STOP AND WAIT** - Review Todoist tasks scheduled for the upcoming calendar day. Share task load analysis and wait for user input.
-- [ ] **STOP AND WAIT** - Check Google calendar for the appropriate day's schedule. Share any preparation needs or conflicts, then wait for user response.
-- [ ] **STOP AND WAIT** - Ask if user needs help creating time blocks for the next day's work. Wait for their decision.
+3. **Calendar Context**
+   - `/list-upcoming-meetings` - Get remaining meetings today and tomorrow
 
-## Journaling
-- [ ] **STOP AND WAIT** - Review previous journal entries from the last 30 days. Share any important reminders or ideas that should be resurfaced, then wait for user response.
-- [ ] **STOP AND WAIT** - Ask for any thoughts, ideas, important events, or notes that should be saved in the journal. Wait for user input.
-- [ ] **STOP AND WAIT** - Create or update today's journal entry. Share the draft and wait for user approval before finalizing.
-- [ ] **STOP AND WAIT** - Confirm specific follow-up items for the next review based on this session. Get user agreement before ending.
+4. **Historical Context**
+   - `/list-recent-journal [7]` - Review last 7 days of journal entries
+   - `/list-gdocs [20]` - Get recent Google Drive documents
+
+5. **Timestamp Context**
+   - Note current date/time and time since last review
+
+## Stage 2: Analysis and Recommendations
+**Purpose**: Process gathered data and provide actionable insights with user interaction.
+
+### Pre-Analysis Check
+- [ ] **STOP AND WAIT** - Confirm user has processed all inboxes (personal email, work email, Slack, GitHub) to zero items. Wait for confirmation before proceeding.
+
+### Context Analysis Report
+Present findings from Stage 1 data in this format:
+
+#### **Current Status Summary**
+- Active task load: [X tasks in inbox, Y due today, Z overdue]
+- @NOW task commitment: [X tasks across Y projects] 
+- Tomorrow's workload: [X tasks + Y meetings]
+- Stalled projects: [List projects needing attention]
+
+#### **Key Insights**
+- Pattern analysis from recent journal entries
+- Meeting preparation needs from calendar review  
+- Document review priorities from recent GDrive activity
+- Project momentum assessment
+
+#### **Priority Recommendations**
+1. **Immediate Actions** (today): [High-priority items requiring attention]
+2. **This Week Focus** (@NOW tasks): [Weekly planning recommendations]
+3. **Project Maintenance** (stalled projects): [Projects needing next actions]
+4. **Tomorrow Preparation** (planning): [Prep work and scheduling needs]
+
+### Analysis and Recommendations Report
+
+Present a comprehensive review report with actionable recommendations:
+
+#### **Executive Summary**
+- Current system health and status
+- Key patterns and insights from data analysis
+- Priority focus areas requiring immediate attention
+
+#### **Action Recommendations**
+
+**Immediate (Today):**
+- List specific tasks/actions needed today
+- Flag any urgent conflicts or deadline issues
+- Identify preparation needs for tomorrow
+
+**This Week (@NOW Tasks):**
+- Analyze @NOW task load and priority distribution
+- Recommend adjustments for realistic weekly commitment
+- Suggest focus areas and task sequencing
+
+**Project Maintenance:**
+- Identify stalled projects needing attention
+- Recommend next actions or cancellation decisions
+- Flag projects with unclear momentum
+
+**Schedule Optimization:**
+- Highlight calendar conflicts or optimization opportunities
+- Suggest meeting decisions (attend/decline/reschedule)
+- Recommend time blocking for focused work
+
+#### **Follow-up Items**
+- Specific tasks to track for next review
+- Patterns to monitor over time
+- System improvements or workflow adjustments
+
+#### **Journal Entry Creation**
+- [ ] **CONFIRM ONLY** - Ask user for any additional thoughts or important events to include
+- Create comprehensive journal entry with review findings
+- [ ] **CONFIRM ONLY** - Share draft journal entry for approval before saving
+
+## Important Notes
+- **Stage 1** runs without user interruption - gather all data first
+- **Stage 2** presents analysis as a comprehensive report with actionable recommendations
+- Only two confirmation points: inbox clearance + journal entry approval
+- Focus on patterns, conflicts, and optimization opportunities rather than raw data
+- Present specific, actionable recommendations organized by time horizon
+- Always end with clear next actions and follow-up commitments

@@ -94,6 +94,13 @@ I use the following tags/labels on my tasks:
 - Always ignore subtasks, without exception.
 
 #### Commands and their purpose
+- `/list-project-descriptions`: Retrieves DESCRIPTION tasks from all Todoist projects to provide context about project purposes for review and planning sessions.
+- `/list-active-tasks`: Retrieves inbox tasks, tasks due today, and overdue tasks with full context (project, priority, labels) for current action planning.
+- `/list-upcoming-meetings`: Retrieves remaining meetings today and all meetings tomorrow from Google Calendar, excluding tentative events for scheduling context.
+- `/list-recent-journal [days]`: Retrieves recent journal entries (default 7 days) to provide context about recent activity, decisions, and patterns for reviews.
+- `/list-now-tasks`: Retrieves all tasks tagged with @NOW label to provide focus for current week planning and execution.
+- `/list-stalled-projects`: Identifies projects lacking @NOW or @NEXT tasks to highlight projects needing attention or potential cancellation.
+- `/list-tomorrow-tasks`: Retrieves all tasks scheduled for tomorrow to support next-day planning and workload assessment.
 
 
 ### **Google Calendar**

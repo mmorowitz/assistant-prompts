@@ -1,11 +1,11 @@
-# /review-docs
+# /list-gdocs
 
 ## Purpose
-Streamlined command to search and list Google Docs files relevant for daily/weekly reviews, eliminating trial and error in document discovery.
+Streamlined command to search and list Google Docs files relevant for context loading, eliminating trial and error in document discovery.
 
 ## Usage
 ```
-/review-docs [pageSize]
+/list-gdocs [pageSize]
 ```
 
 **Parameters:**
@@ -54,7 +54,7 @@ When this command is invoked:
 
 This command replaces step 19 in review.md:
 - Instead of: "Search Google Drive and share relevant findings"
-- Use: `/review-docs 7` (or appropriate day range)
+- Use: `/list-gdocs 7` (or appropriate day range)
 - Provides structured, actionable document summary
 - Eliminates manual search trial and error
 
